@@ -448,7 +448,7 @@ def download_file(filename):
 if __name__ == '__main__':
     os.makedirs(UPLOAD_FOLDER, exist_ok=True) 
     os.makedirs(RESULT_FOLDER, exist_ok=True)
-    app.run(debug=False, use_reloader=False)
+    app.run(debug=True)
 
 
 
